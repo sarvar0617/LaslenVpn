@@ -498,7 +498,6 @@ div .container-commint {
     margin-top: 20px;
     cursor: pointer;
     font-size: 18px;
-    
   }
   .top-about a button:focus {
     background-color: #47dd47;
@@ -510,7 +509,6 @@ div .container-commint {
     width: 420px;
     font-size: 42px;
     max-width: 100%;
-   
   }
   .top-main div p {
     width: 420px;
@@ -525,10 +523,10 @@ div .container-commint {
     max-width: 100%;
     display: block;
   }
-  .img-top img, .img-middle img {
+  .img-top img,
+  .img-middle img {
     max-width: 100%;
-  
-}
+  }
   /* top main qismi */
   /* 2 qism main */
   .top-main-part2 {
@@ -546,9 +544,7 @@ div .container-commint {
     align-items: center;
     padding: 10px;
     max-width: 100%;
-
   }
-
 
   .icon-inform {
     display: flex;
@@ -576,12 +572,16 @@ div .container-commint {
     width: 383px;
     text-align: center;
     padding-top: 20px;
+    max-width: 100%;
+    height: auto;
   }
   .first-main div p {
     font-size: 16px;
     width: 427px;
     padding-top: 10px;
     text-align: center;
+    max-width: 100%;
+    height: auto;
   }
   .custom-list {
     display: flex;
@@ -733,7 +733,7 @@ div .container-commint {
     line-height: 30px;
   }
   .world-photo {
-    background-image: url("/images/world.png") ;
+    background-image: url("/images/world.png");
     background-size: 420px 320px;
     object-fit: cover;
     height: 320px;
@@ -744,7 +744,7 @@ div .container-commint {
   .map {
     position: relative;
     width: 420px;
-    height:320px ;
+    height: 320px;
     background-image: url("images/world.png"); /* Orqa fon rasmi */
     background-size: cover;
     background-position: center;
@@ -789,11 +789,9 @@ div .container-commint {
   /* bu yerda world rasmi */
   .image-sponsor {
     text-align: center;
-   
   }
-  .image-sponsor img{
-     width: 420px;
- 
+  .image-sponsor img {
+    width: 420px;
   }
   /* bu yerda commentlar uchun joy */
   .comment-people {
@@ -814,6 +812,9 @@ div .container-commint {
     text-align: center;
     line-height: 40px;
     padding-bottom: 30px;
+    max-width: 100%;
+    height: auto;
+    
   }
   .about-comment {
     display: flex;
@@ -823,6 +824,8 @@ div .container-commint {
   .parent-container {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    height: auto;
   }
   .container-commint {
     width: 400px;
@@ -834,6 +837,8 @@ div .container-commint {
   }
   div .container-commint {
     display: flex;
+    max-width: 100%;
+    height: auto;
   }
   .odam-ismi {
     display: flex;
@@ -936,9 +941,8 @@ div .container-commint {
     font-size: 18px;
     margin-bottom: 10px;
     margin-left: 20px;
- 
   }
-   .subscribe-container div p{
+  .subscribe-container div p {
     width: 260px;
     margin-left: 20px;
   }
@@ -953,7 +957,8 @@ div .container-commint {
     border: none;
     box-shadow: rgba(255, 0, 0, 0.25) 0px 24px 55px;
     margin-right: 20px;
-
+    max-width: 100%;
+    height: auto;
   }
   .subscribe-container div button:hover {
     width: 100px;
@@ -970,11 +975,13 @@ div .container-commint {
     padding: 20px;
     background-color: #f8f9fa; /* Orqa fon rangi */
     font-size: 14px;
+    height: 100%;
   }
 
   .subscribe-container {
     text-align: center; /* Matnni markazlash */
     margin-bottom: 20px;
+    max-width: 100%;
   }
 
   .subscribe-container h1 {
@@ -996,7 +1003,6 @@ div .container-commint {
     border-radius: 5px;
     cursor: pointer;
   }
-
   .footer-nav {
     display: flex;
     flex-direction: column; /* Vertikal joylashuv */
@@ -1011,12 +1017,15 @@ div .container-commint {
     max-width: 100px; /* Logotip hajmini cheklash */
     height: auto;
     margin-bottom: 10px;
+
   }
 
   .about-footer p {
     font-size: 14px;
     margin-bottom: 10px;
     margin: auto;
+    max-width: 100%;
+    height: auto;
   }
 
   .about-footer div img {
@@ -1027,7 +1036,7 @@ div .container-commint {
   .footer-list {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Har bir bo'lim orasida bo'shliq */
+    gap: 10px; /* Har bir bo'lim orasida bo'shliq */
   }
 
   .footer-list div ul {
@@ -1035,17 +1044,18 @@ div .container-commint {
     padding: 0;
     margin: 0;
     text-align: center;
+    padding-top: 60px;
   }
 
   .footer-list div ul strong {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-size: 16px;
   }
 
   .footer-list div ul li {
     font-size: 14px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
 }
 
