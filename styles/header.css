@@ -176,43 +176,35 @@ div ul {
     display: none;
   }
   .up-btn {
-    width: 100px;
+    width: 80px;
     height: 45px;
     border-radius: 50px;
     border: 1px #f53855 solid;
     color: #f53855;
     background-color: transparent;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
   }
   .up-btn:hover {
-    width: 100px;
-    height: 45px;
-    border-radius: 50px;
-    border: 1px #f53855 solid;
     color: #ffffff;
     background-color: #f53855;
   }
   .in-btn {
-    width: 100px;
+    width: 80px;
     height: 45px;
     border-radius: 50px;
     color: black;
     background-color: transparent;
     border: none;
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
   }
   .in-btn:hover {
-    width: 150px;
-    height: 45px;
-    border-radius: 50px;
-    color: rgb(0, 0, 0);
     background-color: transparent;
     border: 1px #f53855 solid;
     font-weight: bolder;
-    font-size: 16px;
+
   }
 }
 /* mobile uchun ochilgan responsive oxiri */
