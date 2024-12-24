@@ -1,3 +1,45 @@
+.top-main {
+  display: flex;
+  padding-top: 100px;
+  gap: 100px;
+}
+.top-about {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.top-about a button {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f53855;
+  color: white;
+  margin-top: 40px;
+ cursor: pointer;
+}
+.top-about a button:focus {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #47dd47;
+  color: white;
+  margin-top: 40px;
+ cursor: pointer;
+}
+.top-main div h1 {
+  width: 555px;
+  font-size: 50px;
+}
+.top-main div p {
+  width: 555px;
+  font-size: 16px;
+}
+/* //////////////////////// */
+
 .top-main-part2 {
   display: flex;
   justify-content: center;

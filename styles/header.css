@@ -51,44 +51,168 @@ div ul {
 }
 /* NAVBAR */
 /* ////////////////////////// */
-.top-main {
-  display: flex;
-  padding-top: 100px;
-  gap: 100px;
+/* desktop uchun ochilgan responsive boshi */
+@media (min-width: 1200px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  div ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  }
+  .up-btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px #f53855 solid;
+    color: #f53855;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .up-btn:hover {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px #f53855 solid;
+    color: #ffffff;
+    background-color: #f53855;
+  }
+  .in-btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .in-btn:hover {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 1px #f53855 solid;
+    font-weight: bolder;
+    font-size: 16px;
+  }
 }
-.top-about {
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-top: 20px;
+/* desktop uchun ochilgan responsive oxiri */
+/* tablet uchun ochilgan responsive boshi */
+@media (min-width: 768px) and (max-width: 1199px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  div ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+  }
+  .up-btn {
+    width: 100px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px #f53855 solid;
+    color: #f53855;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .up-btn:hover {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px #f53855 solid;
+    color: #ffffff;
+    background-color: #f53855;
+  }
+  .in-btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .in-btn:hover {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 1px #f53855 solid;
+    font-weight: bolder;
+    font-size: 16px;
+  }
 }
-.top-about a button {
-  width: 250px;
-  height: 60px;
-  border-radius: 10px;
-  border: none;
-  background-color: #f53855;
-  color: white;
-  margin-top: 40px;
- cursor: pointer;
+/* tablet uchun ochilgan responsive oxiri */
+/*  */
+/*  */
+/* mobile uchun ochilgan responsive boshi */
+@media (max-width: 767px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  div ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    display: none;
+  }
+  .up-btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px #f53855 solid;
+    color: #f53855;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .up-btn:hover {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px #f53855 solid;
+    color: #ffffff;
+    background-color: #f53855;
+  }
+  .in-btn {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .in-btn:hover {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 1px #f53855 solid;
+    font-weight: bolder;
+    font-size: 16px;
+  }
 }
-.top-about a button:focus {
-  width: 250px;
-  height: 60px;
-  border-radius: 10px;
-  border: none;
-  background-color: #47dd47;
-  color: white;
-  margin-top: 40px;
- cursor: pointer;
-}
-.top-main div h1 {
-  width: 555px;
-  font-size: 50px;
-}
-.top-main div p {
-  width: 555px;
-  font-size: 16px;
-}
-/* //////////////////////// */
+/* mobile uchun ochilgan responsive oxiri */
