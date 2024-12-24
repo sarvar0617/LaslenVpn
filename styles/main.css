@@ -1,3 +1,4 @@
+/* ////////////////////////// */
 .top-main {
   display: flex;
   padding-top: 100px;
@@ -39,7 +40,6 @@
   font-size: 16px;
 }
 /* //////////////////////// */
-
 .top-main-part2 {
   display: flex;
   justify-content: center;
@@ -461,3 +461,86 @@ div .container-commint {
   color: rgba(128, 128, 128, 0.623);
 }
 /* footer qismi */
+/* mobile uchun ochilgan responsive boshi */
+@media  (max-width: 480px) {
+  /* top main qismi */
+  .top-main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 100px;
+  }
+  .top-about {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+  }
+  .top-about a button {
+    width: 420px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f53855;
+    color: white;
+    margin-top: 20px;
+   cursor: pointer;
+   font-size: 18px;
+  }
+  .top-about a button:focus {
+    background-color: #47dd47;
+    width: 420px;
+    height: 60px;
+
+  
+  }
+  .top-main div h1 {
+    width: 420px;
+    font-size: 42px;
+  }
+  .top-main div p {
+    width: 420px;
+    font-size: 16px;
+  }
+  .img-top img{
+    width: 400px;
+    height: 250px;
+  }
+  /* top main qismi */
+/* 2 qism main */
+.top-main-part2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  justify-content: space-around;
+  width: 420px;
+  height: 300px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 10px;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding: 10px;
+}
+
+.icon-inform {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+hr{
+  width: 90%;
+  margin: auto;
+  height: 1px;
+  position: relative;
+  top: 0;
+  opacity: 0.2;
+
+  
+}
+/* 2 qism main */
+}
+
+/* mobile uchun ochilgan responsive oxiri */

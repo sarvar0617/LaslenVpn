@@ -51,6 +51,47 @@ div ul {
 }
 /* NAVBAR */
 /* ////////////////////////// */
+.top-main {
+  display: flex;
+  padding-top: 100px;
+  gap: 100px;
+}
+.top-about {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.top-about a button {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f53855;
+  color: white;
+  margin-top: 40px;
+ cursor: pointer;
+}
+.top-about a button:focus {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: #47dd47;
+  color: white;
+  margin-top: 40px;
+ cursor: pointer;
+}
+.top-main div h1 {
+  width: 555px;
+  font-size: 50px;
+}
+.top-main div p {
+  width: 555px;
+  font-size: 16px;
+}
+/* //////////////////////// */
 /* desktop uchun ochilgan responsive boshi */
 @media (min-width: 1200px) {
   nav {
@@ -162,12 +203,12 @@ div ul {
 /*  */
 /*  */
 /* mobile uchun ochilgan responsive boshi */
-@media  (max-width: 767px) {
+@media  (max-width: 480px) {
   nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 20px;
+    gap: 30px;
   }
   div ul {
     list-style-type: none;
@@ -186,6 +227,8 @@ div ul {
     cursor: pointer;
   }
   .up-btn:hover {
+    width: 80px;
+    height: 45px;
     color: #ffffff;
     background-color: #f53855;
   }
@@ -201,6 +244,8 @@ div ul {
     cursor: pointer;
   }
   .in-btn:hover {
+    width: 80px;
+    height: 45px;
     background-color: transparent;
     border: 1px #f53855 solid;
     font-weight: bolder;
