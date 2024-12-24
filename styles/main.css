@@ -468,7 +468,7 @@ div .container-commint {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    gap: 100px;
+    gap: 10px;
   }
   .top-about {
     height: 350px;
