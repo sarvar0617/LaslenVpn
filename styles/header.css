@@ -204,6 +204,9 @@ div ul {
 /*  */
 /* mobile uchun ochilgan responsive boshi */
 @media  (max-width: 480px) {
+  body{
+    margin: auto;
+  }
   nav {
     display: flex;
     align-items: center;
@@ -250,6 +253,10 @@ div ul {
     border: 1px #f53855 solid;
     font-weight: bolder;
 
+  }
+  .img-middle{
+    width: auto;
+    height: auto;
   }
 }
 /* mobile uchun ochilgan responsive oxiri */
