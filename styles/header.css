@@ -162,7 +162,7 @@ div ul {
 /*  */
 /*  */
 /* mobile uchun ochilgan responsive boshi */
-@media (max-width: 767px) {
+@media  (max-width: 767px) {
   nav {
     display: flex;
     justify-content: space-between;
@@ -186,7 +186,7 @@ div ul {
     cursor: pointer;
   }
   .up-btn:hover {
-    width: 150px;
+    width: 100px;
     height: 45px;
     border-radius: 50px;
     border: 1px #f53855 solid;
@@ -194,7 +194,7 @@ div ul {
     background-color: #f53855;
   }
   .in-btn {
-    width: 150px;
+    width: 100px;
     height: 45px;
     border-radius: 50px;
     color: black;
