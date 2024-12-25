@@ -1262,7 +1262,8 @@ div .container-commint {
   .world-photo {
     height: 400px;
     margin-top: 50px;
-    background-size: cover;
+    background-size: 100% 100%;
+
   }
 
   .map .dot {
@@ -1324,6 +1325,8 @@ div .container-commint {
     width: 100%;
     max-width: 1199px;
     height: auto;
+    display: flex;
+    flex-direction: column;
 
     
   }
