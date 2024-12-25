@@ -804,7 +804,6 @@ div .container-commint {
     font-size: 16px;
     width: 420px;
     text-align: center;
-    line-height: 20px;
   }
   .comment-people div h1 {
     width: 447px;
@@ -853,6 +852,7 @@ div .container-commint {
     font-size: 14px;
     width: 120px;
     height: 20px;
+    padding-top: 10px;
   }
   .flex-reyting {
     display: flex;
