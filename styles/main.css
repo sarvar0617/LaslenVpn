@@ -814,7 +814,6 @@ div .container-commint {
     padding-bottom: 30px;
     max-width: 100%;
     height: auto;
-    
   }
   .about-comment {
     display: flex;
@@ -1017,7 +1016,6 @@ div .container-commint {
     max-width: 100px; /* Logotip hajmini cheklash */
     height: auto;
     margin-bottom: 10px;
-
   }
 
   .about-footer p {
@@ -1086,7 +1084,7 @@ div .container-commint {
     margin-top: 20px;
     cursor: pointer;
   }
-  .img-top{
+  .img-top {
     padding-left: 400px;
     padding-top: 30px;
   }
@@ -1112,17 +1110,19 @@ div .container-commint {
     font-size: 14px;
   }
 
-
   .top-main-part2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 50px;
-    width: 90%;
+    width: 100%;
+    max-width: 1199px;
     height: auto;
     padding: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 25px 50px -10px, rgba(0, 0, 0, 0.3) 0px 15px 30px -15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 25px 50px -10px,
+      rgba(0, 0, 0, 0.3) 0px 15px 30px -15px;
     border-radius: 10px;
+    margin: auto;
   }
 
   .icon-inform {
@@ -1144,9 +1144,9 @@ div .container-commint {
     padding-top: 50px;
     gap: 20px;
   }
-.img-middle{
-  padding-bottom: 20px;
-}
+  .img-middle {
+    padding-bottom: 20px;
+  }
   .first-main div h1 {
     font-size: 30px;
     width: 100%;
@@ -1285,6 +1285,8 @@ div .container-commint {
     padding: 20px;
     position: relative;
     top: 60px;
+    width: 100%;
+    max-width: 1199px;
   }
 
   .subscribe-container div h1 {
@@ -1300,11 +1302,10 @@ div .container-commint {
   .foot {
     height: auto;
     padding: 20px;
-  height: 650px;
+    height: 650px;
   }
 
   .footer-nav {
-
     gap: 20px;
     position: relative;
     top: 90px;
@@ -1312,5 +1313,16 @@ div .container-commint {
 
   .footer-list {
     gap: 20px;
+  }
+  .image-sponsor img {
+    width: 100%;
+    max-width: 1199px;
+  }
+  .parent-container {
+    width: 100%;
+    max-width: 1199px;
+    height: auto;
+    margin: auto;
+    
   }
 }

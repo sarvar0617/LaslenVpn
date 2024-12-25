@@ -17,3 +17,11 @@ body {
   margin: auto;
   width: 90%;
 }
+@media (max-width:480px) {
+  .container{
+    max-width: 420px;
+    width: 100%;
+
+  }
+  
+}
