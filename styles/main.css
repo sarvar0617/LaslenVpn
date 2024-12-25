@@ -1060,3 +1060,257 @@ div .container-commint {
 }
 
 /* mobile uchun ochilgan responsive oxiri */
+@media (min-width: 481px) and (max-width: 1199px) {
+  .top-main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 50px;
+  }
+
+  .top-about {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 10px;
+  }
+
+  .top-about a button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f53855;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .img-top{
+    padding-left: 400px;
+    padding-top: 30px;
+  }
+
+  .top-about a button:focus {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #47dd47;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .top-main div h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .top-main div p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+
+  .top-main-part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 25px 50px -10px, rgba(0, 0, 0, 0.3) 0px 15px 30px -15px;
+    border-radius: 10px;
+  }
+
+  .icon-inform {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  hr {
+    height: 1px;
+    position: relative;
+    top: 0;
+    margin: 10px;
+  }
+
+  .first-main {
+    display: flex;
+
+    padding-top: 50px;
+    gap: 20px;
+  }
+.img-middle{
+  padding-bottom: 20px;
+}
+  .first-main div h1 {
+    font-size: 30px;
+    width: 100%;
+    width: 350px;
+    text-align: center;
+  }
+
+  .first-main div p {
+    font-size: 14px;
+    width: 100%;
+    padding-top: 10px;
+    width: 350px;
+    text-align: center;
+  }
+  .custom-list {
+    margin-top: 20px;
+  }
+
+  ul.custom-list li::before {
+    margin-right: 5px;
+  }
+
+  .part-2-of-main {
+    background-color: #fafafa;
+    height: auto;
+    padding: 20px;
+  }
+
+  .second-main-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .second-main-about h1 {
+    font-size: 30px;
+  }
+
+  .second-main-about p {
+    width: 100%;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .prices {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .prices div {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .price-about-last {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .true-list {
+    gap: 5px;
+  }
+
+  ul.true-list li::before {
+    margin-right: 5px;
+  }
+
+  .about-cost h1 {
+    font-size: 24px;
+  }
+
+  .price-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .cost-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .world-about {
+    padding-top: 50px;
+  }
+
+  .world-about h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .world-about p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .world-photo {
+    height: 400px;
+    margin-top: 50px;
+    background-size: cover;
+  }
+
+  .map .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .comment-people {
+    margin-top: 40px;
+  }
+
+  .container-commint {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .subscribe-container {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    top: 60px;
+  }
+
+  .subscribe-container div h1 {
+    font-size: 25px;
+  }
+
+  .subscribe-container div button {
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .foot {
+    height: auto;
+    padding: 20px;
+  height: 650px;
+  }
+
+  .footer-nav {
+
+    gap: 20px;
+    position: relative;
+    top: 90px;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+}
