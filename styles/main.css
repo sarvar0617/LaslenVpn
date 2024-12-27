@@ -477,19 +477,24 @@ div .container-commint {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    gap: 10px;
+    gap: 50px;
   }
+  .top-about-heading h1 {
+    font-size: 20px;
+  }
+
   .top-about {
     height: 350px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
     padding-top: 20px;
+    height: auto;
+    width: 100%;
   }
   .top-about a button {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    width: 420px;
     height: 60px;
     border-radius: 10px;
     border: none;
@@ -498,30 +503,34 @@ div .container-commint {
     margin-top: 20px;
     cursor: pointer;
     font-size: 18px;
+    margin: auto;
   }
-  .top-about a button:focus {
+  .top-about a button:hover {
     background-color: #47dd47;
-    width: 420px;
-    height: 60px;
-    margin-top: 20px;
+    width: 100%;
   }
   .top-main div h1 {
     width: 420px;
-    font-size: 42px;
+    font-size: 20px;
     max-width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .top-main div p {
     width: 420px;
-    font-size: 16px;
+    font-size: 14px;
     max-width: 100%;
     height: auto;
+    text-align: center;
   }
 
   .img-top img {
-    width: 400px;
+    margin-top: 10px;
     height: 250px;
-    max-width: 100%;
+
     display: block;
+    width: 100%;
+    height: auto;
   }
   .img-top img,
   .img-middle img {
@@ -542,8 +551,10 @@ div .container-commint {
     flex-direction: column;
     position: relative;
     align-items: center;
-    padding: 10px;
-    max-width: 100%;
+  margin-top: 80px;
+    width: 100%;
+    
+
   }
 
   .icon-inform {
@@ -564,11 +575,11 @@ div .container-commint {
   .first-main {
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 100px;
     justify-content: space-between;
   }
   .first-main div h1 {
-    font-size: 35px;
+    font-size: 25px;
     width: 383px;
     text-align: center;
     padding-top: 20px;
@@ -587,10 +598,12 @@ div .container-commint {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+    align-items: center;
   }
   ul.custom-list {
     list-style: none;
     padding: 0;
+    text-align: center;
   }
 
   ul.custom-list li {
@@ -604,8 +617,8 @@ div .container-commint {
     margin-right: 10px;
   }
   .img-middle img {
-    width: 420px;
-    height: 340px;
+    width: 100%;
+    height: auto;
   }
   /* main part 1 */
   /*  */
@@ -946,7 +959,7 @@ div .container-commint {
     margin-left: 20px;
   }
   .subscribe-container div button {
-    width: 100px;
+    width: 200px;
     height: 60px;
     background-color: #f53838;
     border-radius: 10px;
@@ -956,19 +969,13 @@ div .container-commint {
     border: none;
     box-shadow: rgba(255, 0, 0, 0.25) 0px 24px 55px;
     margin-right: 20px;
-    max-width: 100%;
-    height: auto;
+ 
   }
   .subscribe-container div button:hover {
-    width: 100px;
-    height: 60px;
+   
     background-color: #39f2ff;
-    border-radius: 10px;
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-    border: none;
-    box-shadow: rgba(255, 0, 0, 0.25) 0px 24px 55px;
+    width: 200px;
+    height: 60px;
   }
   .foot {
     padding: 20px;
@@ -983,6 +990,9 @@ div .container-commint {
     max-width: 100%;
     position: relative;
     top: 0.5px;
+    display: flex;
+    flex-direction: column;
+
   }
 
   .subscribe-container h1 {
@@ -1063,10 +1073,9 @@ div .container-commint {
 @media (min-width: 481px) and (max-width: 1199px) {
   .top-main {
     display: flex;
-    flex-direction: column;
+ 
     padding-top: 50px;
     gap: 50px;
-    
   }
 
   .top-about {
@@ -1088,8 +1097,14 @@ div .container-commint {
     cursor: pointer;
   }
   .img-top {
-    padding-left: 400px;
-    padding-top: 30px;
+
+    width: 100%;
+    height: auto;
+  }
+  .img-top img {
+
+    width: 100%;
+    height: auto;
   }
 
   .top-about a button:focus {
@@ -1105,7 +1120,7 @@ div .container-commint {
 
   .top-main div h1 {
     width: 100%;
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .top-main div p {
@@ -1125,7 +1140,9 @@ div .container-commint {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 25px 50px -10px,
       rgba(0, 0, 0, 0.3) 0px 15px 30px -15px;
     border-radius: 10px;
-    margin: auto;
+    margin: 20px auto;
+ margin-top: 50px;
+
   }
 
   .icon-inform {
@@ -1146,15 +1163,28 @@ div .container-commint {
 
     padding-top: 50px;
     gap: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .main-middle-about{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .img-middle {
     padding-bottom: 20px;
+    width: 100%;
+    height: auto;
   }
   .first-main div h1 {
     font-size: 30px;
     width: 100%;
     width: 350px;
     text-align: center;
+    height: auto;
   }
 
   .first-main div p {
@@ -1264,7 +1294,6 @@ div .container-commint {
     height: 400px;
     margin-top: 50px;
     background-size: 100% 100%;
-
   }
 
   .map .dot {
@@ -1306,17 +1335,21 @@ div .container-commint {
   .foot {
     height: auto;
     padding: 20px;
-    height: 650px;
+    height: 850px;
   }
 
   .footer-nav {
     gap: 20px;
     position: relative;
     top: 90px;
+    width: 100%;
+    height: auto;
   }
 
   .footer-list {
     gap: 20px;
+    width: 100%;
+    height: auto;
   }
   .image-sponsor img {
     width: 100%;
@@ -1328,7 +1361,5 @@ div .container-commint {
     height: auto;
     display: flex;
     flex-direction: column;
-
-    
   }
 }
